@@ -90,3 +90,12 @@ Docker Engine is the runtime that makes Docker work. It includes:
 - Tool to interact with Docker via commands like:
 ```bash
 docker run, docker build, docker ps
+```
+
+## The repository
+
+It involves three steps:
+1) Build a simple Flask application
+2) requirements.txt
+3) building a dockerfile
+
