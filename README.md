@@ -99,3 +99,17 @@ It involves three steps:
 2) requirements.txt
 3) building a dockerfile
 
+# Practically how to use docker
+
+## Tagging the docker image
+- you have to provide a tag to your docker image when you upload to dockerhub
+- docker tag SOURCE_IMAGE[:TAG] TARGET_IMAGE[:TAG]
+- docker tag mlops-docker-demo indiandude123/mlops-docker-demo:latest
+
+## Pushing to docker hub
+- docker push indiandude123/mlops-docker-demo:latest
+
+## How to run the docker file?
+- use the command: docker run -p <host_port>:<container_port> docker_image
+- you can then access the app using localhost:<host_port>
+- the docker run command basically forwards any traffic that comes to the host_port to the container_port
