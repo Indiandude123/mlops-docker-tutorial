@@ -1,11 +1,11 @@
-# 🚢 MLOps Docker Tutorial
+# MLOps Docker Tutorial
 
 Welcome to the **MLOps Docker Tutorial** repository!  
 This guide is designed to help you understand how Docker can be used in MLOps workflows to build, package, and deploy applications consistently across environments.
 
 ---
 
-## 📌 Why Docker?
+## Why Docker?
 
 When developing an application, it often relies on:
 - Specific OS configurations
@@ -19,7 +19,7 @@ Now imagine sharing this application with another team. If their environment dif
 
 ---
 
-## 🧠 What is Docker?
+## What is Docker?
 
 Docker is a platform that helps developers:
 - Build applications
@@ -30,27 +30,27 @@ Docker containers encapsulate your code, libraries, environment settings, and mo
 
 ---
 
-## 🔧 Key Benefits of Docker
+## Key Benefits of Docker
 
-### ✅ Portability
+### Portability
 Docker containers run consistently across:
 - Developer laptops
 - Testing environments
 - Production servers
 - Any cloud platform
 
-> 📦 Build once, run anywhere.
+> Build once, run anywhere.
 
 ---
 
-### 🔒 Isolation
+### Isolation
 Each Docker container is **isolated**:
 - No conflict between apps
 - Easier testing of different components side by side
 
 ---
 
-### ⚖️ Scalability
+### Scalability
 Containers are lightweight and quick to spin up. For example:
 > You run a social media app on a server that handles 100 users.  
 Suddenly, 500 users join.  
@@ -58,7 +58,7 @@ You can **scale horizontally** by spinning up more containers instantly — each
 
 ---
 
-## 🆚 Docker vs Virtual Machines
+## Docker vs Virtual Machines
 
 | Feature | Docker | Virtual Machines |
 |--------|--------|------------------|
@@ -75,18 +75,18 @@ You can **scale horizontally** by spinning up more containers instantly — each
 
 ---
 
-## ⚙️ Docker Engine: Core Components
+## Docker Engine: Core Components
 
 Docker Engine is the runtime that makes Docker work. It includes:
 
-### 🧱 Docker Daemon (Server)
+### Docker Daemon (Server)
 - Manages Docker containers, images, volumes, networks
 - Listens for API requests and performs container operations
 
-### 📡 REST API
+### REST API
 - Interfaces between the Docker client and daemon
 
-### 💻 Docker CLI (Client)
+### Docker CLI (Client)
 - Tool to interact with Docker via commands like:
 ```bash
 docker run, docker build, docker ps
